@@ -7,11 +7,11 @@ class FizzBuzz {
         int i = 1;
         while (i < 100) {
 
-            i = getreturn(i);
+            i = getReturnString(i);
         }
     }
 
-    private static int getreturn(int i) {
+    private static int getReturnString(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
